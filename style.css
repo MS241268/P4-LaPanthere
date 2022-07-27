@@ -308,7 +308,7 @@ a:hover {
     display: inline;
 }
 
-.navbar-brand img[src$=svg] {
+.navbar-brand img[src$=svgitg] {
     min-width: 100px;
 }
 
@@ -659,7 +659,8 @@ h6,
 p,
 label,
 .btn,
-a {
+a,
+address/*Ajput par MS*/ {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -922,6 +923,8 @@ h4 {
     h5,
     h6,
     p,
+    address,/*Ajout par MS*/
+    a,/*Ajout par MS*/
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
