@@ -18,6 +18,27 @@ a:hover {
     cursor: pointer;
 }
 
+/*Ajouté par MS*/
+a:focus-visible {
+    outline: 3px solid red!important;
+    border-radius: 3px;
+}
+/*--*/
+
+/*Ajouté par MS*/
+.form-control:focus-visible {
+    outline: 3px solid red!important;
+    border-radius: 3px;
+}
+/*--*/
+
+/*Ajouté par MS*/
+button:focus-visible {
+    outline: 3px solid red!important;
+    border-radius: 3px;
+}
+/*--*/
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -583,7 +604,7 @@ a[data-lightbox]:hover img {
 
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
-    width:100%;/*Ajout par MS*/
+    width:100%;/*Ajouté par MS*/
     margin: 0 auto;
 }
 
@@ -660,7 +681,7 @@ p,
 label,
 .btn,
 a,
-address/*Ajput par MS*/ {
+address/*Ajouté par MS*/ {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -689,7 +710,7 @@ address/*Ajput par MS*/ {
     margin: auto auto auto auto;
 }
 
-/*Suppression par MS*/
+/*Supprimé par MS*/
 /*p {
     font-size: 11px;
 }*/
@@ -718,7 +739,7 @@ address/*Ajput par MS*/ {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-/*Ajout par MS*/
+/*Ajouté par MS*/
 .title_list_footer{
     margin-bottom:10px;
     padding: 0px;
@@ -761,9 +782,17 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.portfolio-thumb {
+/*Supprimé par MS*/
+/*.portfolio-thumb {
     margin-bottom: 24px;
+}*/
+/*--*/
+
+/*Ajouté par MS*/
+figcaption{
+    margin-top: 24px;
 }
+/*--*/
 
 .portfolio-row {
     margin-bottom: 44px;
@@ -775,7 +804,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(53, 51, 50, 0.6);/*Ajouté par MS*/
+    /*background-color: rgba(165, 147, 99, 0.7); Supprimé par MS*/
     padding: 40px 40px 40px 40px;
 }
 
@@ -809,6 +839,13 @@ h4 {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
+
+/*Ajouté par MS*/
+.btn-atomic-tangerine:focus-visible{
+    background: #F3976C;
+    color: #FFFFFF!important;
+}
+/*--*/
 
 .ltc-white {
     color: #FFFFFF!important;
@@ -923,8 +960,8 @@ h4 {
     h5,
     h6,
     p,
-    address,/*Ajout par MS*/
-    a,/*Ajout par MS*/
+    address,/*Ajouté par MS*/
+    a,/*Ajouté par MS*/
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
