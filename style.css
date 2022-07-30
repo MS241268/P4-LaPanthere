@@ -23,17 +23,25 @@ a:focus-visible {
     outline: 3px solid red!important;
     border-radius: 3px;
 }
-/*--*/
 
-/*Ajouté par MS*/
-.form-control:focus-visible {
+a.social {
+    display: inline-block;
+    height: 30px;
+}
+
+.form-control:focus {
+    /*outline: 3px solid red!important;*/
+    border-color: red;
+    border-radius: 3px;
+    box-shadow: 0 0 0 0.15rem rgba(255, 0, 0, 0.8);
+}
+
+button:focus-visible {
     outline: 3px solid red!important;
     border-radius: 3px;
 }
-/*--*/
 
-/*Ajouté par MS*/
-button:focus-visible {
+.btn-d:focus{
     outline: 3px solid red!important;
     border-radius: 3px;
 }
@@ -516,7 +524,15 @@ button {
 
 .blockquote-footer{
     font-size :1.275em;
+    font-family: helvetica;
 }
+
+/*Ajoué par MS*/
+.blockquote-footer::before{
+    content: "";
+}
+/*--*/
+
 .panel-sq,
 .panel-sq .panel-heading,
 .panel-sq .panel-footer {
@@ -625,11 +641,11 @@ a[data-lightbox]:hover img {
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 1)!important;
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 .close-lightbox:hover,
@@ -642,13 +658,13 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, 1)!important;
+    background: rgba(0, 0, 0, .9)!important;
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 0.7;
 }
 
 .next-lightbox {
@@ -743,7 +759,6 @@ address/*Ajouté par MS*/ {
 .title_list_footer{
     margin-bottom:10px;
     padding: 0px;
-    opacity:0.6;
 }
 /*--*/
 
@@ -778,9 +793,25 @@ h4 {
     margin-top: 24px;
 }
 
+/*Supprimé par MS*/
 .white {
     color: #FFFFFF!important;
 }
+/*--*/
+
+/*Ajouté par MS*/
+footer p,i{
+        color:rgba(53, 51, 50, 1)!important;
+}
+
+footer li::marker{
+    color:rgba(53, 51, 50, 1) ;
+}
+
+footer a{
+   color:rgba(53, 51, 50, 0.8)!important;
+}
+/*--*/
 
 /*Supprimé par MS*/
 /*.portfolio-thumb {
@@ -798,6 +829,12 @@ figcaption{
     margin-bottom: 44px;
     margin-top: 50px;
 }
+
+/*Ajouté par MS*/
+.img-fluid {
+    width: 100%;
+}
+/*--*/
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -961,7 +998,7 @@ figcaption{
     h6,
     p,
     address,/*Ajouté par MS*/
-    a,/*Ajouté par MS*/
+    .mail,
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
