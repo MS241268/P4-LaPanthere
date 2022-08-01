@@ -833,12 +833,14 @@
 				max: 0,
 				message: "Must be a negative number<!-- data-validator-negativenumber-message to override -->"
 			},
+      
 			required: {
 				name: "Required",
 				type: "required",
 				/*message: "This is required<!-- data-validator-required-message to override -->"*/
         message: "Champ requis<!-- data-validator-required-message to override -->"
 			},
+
 			checkone: {
 				name: "Checkone",
 				type: "minchecked",
