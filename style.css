@@ -31,6 +31,10 @@ a.social {
     height: 30px;
 }
 
+.focus_img:focus{
+    box-shadow: 15px 15px 2px 1px rgba(53, 51, 50, .4)!important;
+}
+
 .social:focus{
     outline: 3px solid rgba(53, 51, 50, 1)!important;
     background-color: transparent;
@@ -387,7 +391,11 @@ button:focus {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
 }
-
+/*Ajouté par MS*/
+button.navbar-toggler {
+    border: none;
+}
+/*--*/
 .nav-invert .navbar .nav {
     float: left;
 }
@@ -909,6 +917,14 @@ figcaption{
     /*color: #cccccc!important;Supprimé par MS*/
     color:  #F3976C!important;/*Ajouté par MS*/
 }
+
+/*Ajouté par MS*/
+.ltc-white:focus {
+    background:#F3976C;
+    color:  rgba(53, 51, 50, 1)!important;
+    outline:none!important;
+}
+/*--*/
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
