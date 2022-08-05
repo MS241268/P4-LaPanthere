@@ -51,6 +51,13 @@ a.social {
     box-shadow: 4px 4px 2px 1px rgba(53, 51, 50, .3);/*0 0 0 0.35rem rgba(53, 51, 50, .5);*/
 }
 
+input:placeholder-shown,
+textarea:placeholder-shown{
+    font-style:italic;
+}
+
+
+
 button:focus {
     outline: 3px solid rgba(53, 51, 50, 1)!important;
     border-radius: 3px;

@@ -141,7 +141,7 @@
             //                                                 MAXLENGTH
             // ---------------------------------------------------------
             if ($this.attr("maxlength") !== undefined) {
-              message = "Too long: Maximum of '" + $this.attr("maxlength") + "' characters<!-- data-validation-maxlength-message to override -->";
+              message = "Trop long: Maximum 250 '" + $this.attr("maxlength") + "' caractères<!-- data-validation-maxlength-message to override -->";
               if ($this.data("validationMaxlengthMessage")) {
                 message = $this.data("validationMaxlengthMessage");
               }
@@ -152,7 +152,7 @@
             //                                                 MINLENGTH
             // ---------------------------------------------------------
             if ($this.attr("minlength") !== undefined) {
-              message = "Too short: Minimum of '" + $this.attr("minlength") + "' characters<!-- data-validation-minlength-message to override -->";
+              message = "Trop court: Minimum 10 '" + $this.attr("minlength") + "' caractères<!-- data-validation-minlength-message to override -->";
               if ($this.data("validationMinlengthMessage")) {
                 message = $this.data("validationMinlengthMessage");
               }
@@ -833,11 +833,11 @@
 				max: 0,
 				message: "Must be a negative number<!-- data-validator-negativenumber-message to override -->"
 			},
-      
+
 			required: {
 				name: "Required",
 				type: "required",
-				/*message: "This is required<!-- data-validator-required-message to override -->"*/
+				//message: "This is required<!-- data-validator-required-message to override -->"//
         message: "Champ requis<!-- data-validator-required-message to override -->"
 			},
 
