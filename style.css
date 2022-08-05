@@ -45,10 +45,8 @@ a.social {
 }
 
 .form-control:focus {
-    /*outline: 3px solid red!important;*/
     border:3px solid rgba(53, 51, 50, 1);
-    /*border-radius: 3px;*/
-    box-shadow: 4px 4px 2px 1px rgba(53, 51, 50, .3);/*0 0 0 0.35rem rgba(53, 51, 50, .5);*/
+    box-shadow: 4px 4px 2px 1px rgba(53, 51, 50, .3);
 }
 
 input:placeholder-shown,
@@ -759,12 +757,6 @@ address/*Ajouté par MS*/ {
     margin: auto auto auto auto;
 }
 
-/*Supprimé par MS*/
-/*p {
-    font-size: 11px;
-}*/
-/*--*/
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -777,7 +769,6 @@ address/*Ajouté par MS*/ {
 
 .cta-hero {
     margin-top: 22px;
-    /*color: #FFFFFF!important;*//*Supprimé par MS*/
     color:rgba(53, 51, 50, 1)!important; /*Ajouté par MS*/
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
@@ -834,7 +825,7 @@ h4 {
     margin-top: 24px;
 }
 
-/*Supprimé par MS*/
+/*Ajouté par MS*/
 .white {
     color: #FFFFFF!important;
 }
@@ -852,12 +843,6 @@ footer li::marker{
 footer a{
    color:rgba(53, 51, 50, 0.8)!important;
 }
-/*--*/
-
-/*Supprimé par MS*/
-/*.portfolio-thumb {
-    margin-bottom: 24px;
-}*/
 /*--*/
 
 /*Ajouté par MS*/
@@ -883,7 +868,6 @@ figcaption{
 
 .black-background {
     background-color: rgba(53, 51, 50, 0.6);/*Ajouté par MS*/
-    /*background-color: rgba(165, 147, 99, 0.7); Supprimé par MS*/
     padding: 40px 40px 40px 40px;
 }
 
@@ -910,12 +894,10 @@ figcaption{
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    /*color: #FFFFFF!important;Supprimé par MS*/
     color:rgba(53, 51, 50, 1);/*Ajouté par MS*/
 }
 
 .btn-atomic-tangerine:hover {
-    /*background: #c27956!important;Supprimé par MS*/
     background: rgba(53, 51, 50, 1);
     color: #F3976C!important;
 }
@@ -932,7 +914,6 @@ figcaption{
 }
 
 .ltc-white:hover {
-    /*color: #cccccc!important;Supprimé par MS*/
     color:  #F3976C!important;/*Ajouté par MS*/
 }
 
