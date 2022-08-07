@@ -947,11 +947,11 @@ figcaption{
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.jpeg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.jpeg");
 }
 
 @media all and (max-width: 1024px) {
