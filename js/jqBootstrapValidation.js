@@ -152,7 +152,7 @@
             //                                                 MINLENGTH
             // ---------------------------------------------------------
             if ($this.attr("minlength") !== undefined) {
-              message = "Trop court: Minimum 10 '" + $this.attr("minlength") + "' caractères<!-- data-validation-minlength-message to override -->";
+              message = "Trop court: Minimum '" + $this.attr("minlength") + "' caractères<!-- data-validation-minlength-message to override -->";
               if ($this.data("validationMinlengthMessage")) {
                 message = $this.data("validationMinlengthMessage");
               }
