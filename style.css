@@ -556,7 +556,6 @@ button {
 .blockquote-footer{
     font-size :1.275em;
     font-family: helvetica,"arial black",arial,verdana,sans-serif;
-    font-display: swap;/*Ajouté par sms*/
 }
 
 /*Ajoué par MS*/
@@ -617,7 +616,6 @@ button {
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica,"arial black",arial,verdana,sans-serif;
-    font-display: swap;/*Ajouté par sms*/
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -733,7 +731,6 @@ label,
 a,
 address/*Ajouté par MS*/ {
     font-family: "helvetica","arial black",arial,verdana,sans-serif;
-    font-display: swap;/*Ajouté par sms*/
     font-weight: 400;
     color: #575757!important;
     z-index:1;
@@ -769,7 +766,6 @@ address/*Ajouté par MS*/ {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans","arial black",arial,verdana,sans-serif;
-    font-display: swap;/*Ajouté par sms*/
 }
 
 .cta-hero {
